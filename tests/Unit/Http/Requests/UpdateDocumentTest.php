@@ -42,7 +42,11 @@ class UpdateDocumentTest extends TestCase
 
         $actual = $this->subject->rules();
 
-        $this->assertEquals([], $actual);
+        $this->assertEquals([
+            'name' => 'required',
+            'document_type' => 'required',
+            'file' => 'sometimes|file|mimes:pdf'
+        ], $actual);
     }
 
     // test cases...
