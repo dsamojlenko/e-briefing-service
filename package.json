@@ -28,6 +28,6 @@
     "bulma": "^0.5.1",
     "es6-promise": "^4.2.8",
     "font-awesome": "^4.7.0",
-    "marked": "^0.7.0"
+    "marked": "^4.0.10"
   }
 }
